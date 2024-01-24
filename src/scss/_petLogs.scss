@@ -1,0 +1,68 @@
+.pet-logs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 15px auto;
+    width: 90%;
+    padding: 5px;
+
+    .pet-logs-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+ 
+    h1 {
+        color: $gray;
+        font-weight: 300;
+        font-size: 3em;
+    }
+
+    .logs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: minmax(150px, 1fr);
+        gap: 30px;
+        max-width: 1200px;
+        margin: 15px auto;
+        width: 100%;
+        padding: 5px;
+
+        .log {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid lightgray;
+            text-align: center;
+            border-radius: 4px;
+            padding: 20px;
+            color: $gray;
+
+            h2 {
+                margin-bottom: 30px;
+            }
+
+            .date {
+                margin-top: 30px;
+            }
+
+            .date {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                justify-content: end;
+            }
+        }
+
+        @media (max-width: 1200px){
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 768px){
+            grid-template-columns: 1fr;
+        }
+    }
+}
+

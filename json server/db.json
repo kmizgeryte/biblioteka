@@ -1,0 +1,76 @@
+{
+  "gyvunai": [
+    {
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRvZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "vardas": "Ruoniukas",
+      "dob": "2023-11-04",
+      "rusis": "šuo"
+    },
+    {
+      "id": 2,
+      "img": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhdHxlbnwwfHwwfHx8MA%3D%3D",
+      "vardas": "Murkse",
+      "dob": "2020-01-04",
+      "rusis": "kate"
+    },
+    {
+      "id": "b066",
+      "img": "https://plus.unsplash.com/premium_photo-1686090449483-89a9b794e7cf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZG9nfGVufDB8fDB8fHww",
+      "vardas": "liutukas",
+      "dob": "2024-01-04",
+      "rusis": "suo"
+    },
+    {
+      "id": "a89c",
+      "img": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFiYml0fGVufDB8fDB8fHww",
+      "vardas": "Baltukas",
+      "dob": "2023-12-14",
+      "rusis": "triušis"
+    },
+    {
+      "id": "b73a",
+      "img": "https://images.unsplash.com/photo-1521217155737-0d5632e9813f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHR1cnRsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "vardas": "Drakonas",
+      "dob": "2021-06-10",
+      "rusis": "sausumos vėžlys"
+    },
+    {
+      "id": "6763",
+      "img": "https://images.unsplash.com/photo-1585095595205-e68428a9e205?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25ha2UlMjB0ZXJhcml1bXxlbnwwfHwwfHx8MA%3D%3D",
+      "vardas": "Saulutė",
+      "dob": "2022-02-22",
+      "rusis": "Gyvatė"
+    },
+    {
+      "id": "fea3",
+      "img": "https://images.unsplash.com/photo-1591947360981-53fdc4dc764a?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "vardas": "Smalsiukė ir Ieškutė",
+      "dob": "2023-03-09",
+      "rusis": "Labaratorinė žiūrkė"
+    },
+    {
+      "id": "169a",
+      "img": "https://images.unsplash.com/photo-1579776711405-534256abcbb6?q=80&w=1071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "vardas": "Meilutis",
+      "dob": "2022-09-14",
+      "rusis": "voras"
+    }
+  ],
+  "aprasymas": [
+    {
+      "id": 1,
+      "info": "rastas miske, susales",
+      "apybudinimas": "suduoti vaistai nuo parazitu, paskiepytas",
+      "data": "data",
+      "gyvunaiId": 1
+    },
+    {
+      "id": 2,
+      "info": "rastas prie maxima parduotuves",
+      "apybudinimas": "siuo metu gydomas klinikoje",
+      "data": "data",
+      "gyvunaiId": 2
+    }
+  ]
+}
