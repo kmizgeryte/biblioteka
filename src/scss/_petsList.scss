@@ -18,9 +18,10 @@
     align-items:flex-end;
     justify-content: center;
     position: relative;
-    max-width: 100px;
-    min-height: 300px;
+    max-width: 150px;
+    min-height: 380px;
     text-align: center;
+    text-wrap: wrap;
     overflow: hidden;
     cursor: pointer;
     background-image: url(https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2VhfGVufDB8fDB8fHww) ;
@@ -69,16 +70,17 @@
 }
 h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: clamp(38px, 5vw, 48px);
+    // font-size: clamp(38px, 5vw, 48px);
+    font-size: 34px;
     color: white;
     text-transform: uppercase;
     white-space: nowrap;
     margin: 0;
-    transform: rotate(-90deg) translateX(-200px);
-    -webkit-transform: rotate(-90deg) translateX(-200px);
-    -moz-transform: rotate(-90deg) translateX(-200px);
-    -ms-transform: rotate(-90deg) translateX(-200px);
-    -o-transform: rotate(-90deg) translateX(-200px);
+    transform: rotate(-90deg) translateX(-290px);
+    -webkit-transform: rotate(-90deg) translateX(-290px);
+    -moz-transform: rotate(-90deg) translateX(-290px);
+    -ms-transform: rotate(-90deg) translateX(-290px);
+    -o-transform: rotate(-90deg) translateX(-290px);
 }
 .card:hover h3 {
     padding-bottom: 0.5em;
@@ -91,7 +93,7 @@ h3{
 h5{
     // font-family: 'Montserrat', sans-serif;
     position: absolute;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     margin: 0;
     max-height: 0;
@@ -106,7 +108,7 @@ h5{
     position: relative;
     opacity: 1;
     max-height: 100%;
-    transition-delay: 0.3s;
+    // transition-delay: 0.3s;
 }
 
 // 
@@ -175,5 +177,6 @@ h5{
 
     @media (max-width: 550px){
         grid-template-columns: 1fr;
+        font-size: smaller;
     }
 }

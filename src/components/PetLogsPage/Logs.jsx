@@ -39,8 +39,8 @@ const Logs = ({logsData}) => {
     >
     {logsData && logsData.map((log, index) => (
       <motion.div className="log" key={log.id + index} variants={item} layout="position">
-        <h2>{log.status}</h2>
-        <p>{log.description}</p>
+        <h2>{log.info}</h2>
+        <p>{log.aprasymas}</p>
         <div className="date">{new Date(log.dob).toLocaleDateString("lt")}</div>
       </motion.div>
     ))}

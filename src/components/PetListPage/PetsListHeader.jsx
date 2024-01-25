@@ -30,6 +30,24 @@ const PetListHeader = () => {
         <div className="card row">
           <div className="card-body">
             <div className="title2">
+              <h3>Savanoriams</h3>
+            </div>
+            <h5>Mūsų pagrindas, savanoriškas darbas: tad kviečiame prisijungti prie mūsų. Galite priziureti vien šunis arba kates, ar pabuti su egzotiniais.  </h5>
+          </div>
+        </div>
+
+        <div className="card row">
+          <div className="card-body">
+            <div className="title2">
+              <h3>Laikina globa</h3>
+            </div>
+            <h5>Gyvūnų tiek daug, kad savo patalpose visų sutalpinti fiziškai nepajėgemia, Tad prašome tų kurie gali mums padėti priziurėti, kol surasime namus. prasome susisiekti su: Dovile +370 04724505 </h5>
+          </div>
+        </div>
+
+        <div className="card row">
+          <div className="card-body">
+            <div className="title2">
               <h3>Parama</h3>
             </div>
             <h5>Parama galite skirti:

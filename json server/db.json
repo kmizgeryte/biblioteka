@@ -1,14 +1,14 @@
 {
   "gyvunai": [
     {
-      "id": 1,
+      "id": "1",
       "img": "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRvZ3xlbnwwfHwwfHx8MA%3D%3D",
       "vardas": "Ruoniukas",
       "dob": "2023-11-04",
       "rusis": "šuo"
     },
     {
-      "id": 2,
+      "id": "2",
       "img": "https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhdHxlbnwwfHwwfHx8MA%3D%3D",
       "vardas": "Murkse",
       "dob": "2020-01-04",
@@ -59,18 +59,39 @@
   ],
   "aprasymas": [
     {
-      "id": 1,
+      "id": "1",
       "info": "rastas miske, susales",
-      "apybudinimas": "suduoti vaistai nuo parazitu, paskiepytas",
+      "apibūdinimas": "suduoti vaistai nuo parazitu, paskiepytas",
       "data": "data",
       "gyvunaiId": 1
     },
     {
       "id": 2,
+      "info": "pastebeta, kad suzeita koja",
+      "apibūdinimas": "nuveztas i klinika apziurai",
+      "data": "data",
+      "gyvunaiId": 1
+    },
+    {
+      "id": "2",
       "info": "rastas prie maxima parduotuves",
-      "apybudinimas": "siuo metu gydomas klinikoje",
+      "apibūdinimas": "siuo metu gydomas klinikoje",
       "data": "data",
       "gyvunaiId": 2
+    },
+    {
+      "id": "71ec",
+      "info": "prasau",
+      "apibūdinimas": "labai",
+      "data": "2024-01-25T14:17:03.633Z",
+      "gyvunaiId": "1"
+    },
+    {
+      "id": "f164",
+      "info": "kahjxgc",
+      "apibūdinimas": "djkvhyfgthiojkxo",
+      "data": "2024-01-25T14:50:30.092Z",
+      "gyvunaiId": "1"
     }
   ]
 }

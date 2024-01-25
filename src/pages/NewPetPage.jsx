@@ -76,6 +76,10 @@ const NewPetPage = () => {
       }}
     >
       <h1>Pridėti liūdinčia širdele</h1>
+      <div className=''>
+
+
+      </div>
       <form onSubmit={handleSubmit}>
       <label htmlFor="img">Paveikslėlis (URL):</label>
       <input onChange={handleChange} type="text" name='img' placeholder='Nuotraukos URL' autoComplete="off" />

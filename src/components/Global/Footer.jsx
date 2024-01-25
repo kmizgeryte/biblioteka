@@ -11,7 +11,11 @@ const Footer = () => {
           damping: 20,
           delay: 0.7
         }}
-      >Copyright © VetBee 2023. All rights reserved.</motion.footer>
+        
+        
+      >
+      <div className="footer">
+        Copyright © Dužusios širdelės 2023. All rights reserved.</div></motion.footer>
     )
   }
   

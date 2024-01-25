@@ -14,7 +14,8 @@ const PetLogsHeader = ({petName, id}) => {
       delay: 0.3
     }}
     >
-      <h1>{petName && petName}: Health Records</h1>
+      {/* <h1>{petName && petName}: Health Records</h1> */}
+      <h1>Gyvūno būklės įrašai</h1>
         <div className="buttons">
           <Link to={`/logs/${id}/new-log`} className="button">Add Log</Link>
           <Link to="/" className="button outline">Go back</Link>
