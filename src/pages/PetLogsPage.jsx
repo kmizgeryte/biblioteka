@@ -40,7 +40,7 @@ const PetLogsPage = () => {
   };
 
   return (
-    <div>
+    <div className='petLogPage'>
       <div>
       <PetLogsHeader vardas={gyvunas ? gyvunas.vardas : ''} id={id} />
         {/* <Logs logsData={logsData} /> */}
@@ -64,8 +64,8 @@ const PetLogsPage = () => {
           <div className="kortele" key={aprasymas.id} 
           
           >
-            <p>Info: {aprasymas.info}</p>
-            <p>Aprašymas: {aprasymas.apibūdinimas}</p>
+            <p> <b> Info: </b> {aprasymas.info}</p>
+            <p> <b> Aprašymas: </b> {aprasymas.apibūdinimas}</p>
             <button style={{ border: '1px solid #ccc', margin: '5px', padding: '7px', background: 'aqua', width: '100px '}} onClick={() => handleDelete(aprasymas.id)}>Delete</button>
           </div>
         ))
