@@ -31,7 +31,7 @@ const Pet = ({img, vardas, dob, rusis, id, motion, item}) => {
       <div className="dob">{dobFormated}</div>
       <div className="email">{rusis}</div>
       <div className="buttons">
-          <Link to={"/logs/" + id} className="button">View log</Link>
+          <Link to={"/logs/" + id} className="button" >Aprašymas</Link>
           <a onClick={handleDelete} className="button outline">Rado namus</a>
       </div>
   </motion.div>

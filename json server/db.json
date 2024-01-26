@@ -75,7 +75,7 @@
     {
       "id": "2",
       "info": "rastas prie maxima parduotuves",
-      "apibūdinimas": "siuo metu gydomas klinikoje",
+      "apibūdinimas": "siuo metu karantinuojama klinikoje, ten praleis savaite",
       "data": "data",
       "gyvunaiId": 2
     },
@@ -141,6 +141,43 @@
       "apibūdinimas": "Šios dvi gražuolės sesutės paimtos iš chemijos labaratorijos. Gydytojo apžiūrėtos ir gali keliauti į naujus namus",
       "data": "2024-01-25T15:16:30.572Z",
       "gyvunaiId": "fea3"
+    },
+    {
+      "id": "cdc1",
+      "info": "Apziura pas veterinara",
+      "apibūdinimas": "suduoti vaistai nuo parazitu, atlikta pirminė apžiūra. Katė sveika ir pasiruošusi keliauti į šiltus, jaukius namus ;)",
+      "data": "2024-01-26T11:04:10.995Z",
+      "gyvunaiId": "2"
+    }
+  ],
+  "savanoriai": [
+    {
+      "id": "3k8",
+      "Vardas": "Ona",
+      "Pavardė": "Petrutė",
+      "Gimimo data": "1992 09 15",
+      "Telefono numeris": "+6243920",
+      "El. paštas": "ona.petrute@gmail.com"
+    },
+    {
+      "id": "f1b9",
+      "Vardas": "Margarita",
+      "Pavardė": "Jone",
+      "Gimimo data": "1998 05 24",
+      "Telefono numeris": "987654323456",
+      "El": {
+        " paštas": "margarita.jone@gmail.com"
+      }
+    },
+    {
+      "id": "b9b8",
+      "Vardas": "Milda",
+      "Pavardė": "Mol",
+      "Gimimo data": "1998 05 24",
+      "Telefono numeris": "987654323456",
+      "El": {
+        " paštas": "margarita.jone@gmail.com"
+      }
     }
   ]
 }

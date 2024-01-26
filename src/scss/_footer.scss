@@ -1,4 +1,4 @@
-footer {
+.footer {
     display: flex;
     justify-content: center;
     align-items: end;
@@ -6,4 +6,18 @@ footer {
     padding-bottom: 20px;
     color: $gray;
     flex: 1;
+   
 }
+
+.social-icons{
+    
+    display: flex;
+    
+    justify-content: center;
+    gap: 30px;
+
+    .icon{
+        color: $aqua;
+        padding-bottom: 10px;
+    }
+} 

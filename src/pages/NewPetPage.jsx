@@ -2,6 +2,8 @@ import { useContext, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import PetsContext from '../contexts/PetsContext'
 import { motion } from 'framer-motion'
+import { FaHeartBroken } from "react-icons/fa";
+import { GiBrokenHeartZone } from "react-icons/gi";
 
 const NewPetPage = () => {
   
@@ -75,7 +77,7 @@ const NewPetPage = () => {
         delay: 0.3
       }}
     >
-      <h1>Pridėti liūdinčia širdele</h1>
+      <h1>Pridėti liūdinčia širdele <GiBrokenHeartZone />  </h1>
       <div className=''>
 
 
@@ -93,8 +95,8 @@ const NewPetPage = () => {
           <input onChange={handleChange} type="text" name='rusis' placeholder='katė-beveislė' autoComplete="off"/>
 
           <div className="buttons">
-            <button className="button">Add Pet</button>
-            <Link to="/" className="button outline">Go back</Link>
+            <button className="button">Pridėti <FaHeartBroken />  </button>
+            <Link to="/" className="button outline">Gįžti atgal</Link>
           </div>
       </form>
   </motion.div>
