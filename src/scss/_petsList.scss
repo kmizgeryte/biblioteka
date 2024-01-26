@@ -1,5 +1,7 @@
 
-
+*,*::before,*::after{
+    box-sizing: border-box;
+}
 .row{
     display: flex;
 }
@@ -51,7 +53,7 @@
 .card:nth-of-type(3){
     background-image: url(https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzZXJ0fGVufDB8fDB8fHww);
 }
-.card:hover{
+.card:hover, .card:active{
     max-width: 350px;
 }
 .card-body{
@@ -65,7 +67,7 @@
     inset: 0 ;
     
 }
-.card:hover .title2{
+.card:hover .title2, .card:active .title2{
     all: unset;
 }
 h3{
@@ -82,7 +84,7 @@ h3{
     -ms-transform: rotate(-90deg) translateX(-290px);
     -o-transform: rotate(-90deg) translateX(-290px);
 }
-.card:hover h3 {
+.card:hover h3, .card:active h3 {
     padding-bottom: 0.5em;
     transform: unset;
     -webkit-transform: unset;
@@ -104,11 +106,11 @@ h5{
     -ms-transition: max-height 0.3s easy-in-out;
     -o-transition: max-height 0.3s easy-in-out;
 }
-.card:hover h5 {
+.card:hover h5, .card:active h5 {
     position: relative;
     opacity: 1;
     max-height: 100%;
-    // transition-delay: 0.3s;
+    transition-delay: 0.3s;
 }
 
 // 

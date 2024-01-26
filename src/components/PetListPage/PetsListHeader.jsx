@@ -23,7 +23,7 @@ const VolunteerForm = ({ closeModal }) => {
         throw new Error('Įvyko klaida saugant informaciją.');
       }
 
-      closeModal(); // Uždarome modalą po sėkmingai išsiuntimo
+      closeModal(); 
     } catch (error) {
       setError(error.message);
     }
@@ -135,7 +135,7 @@ const VolunteerForm = ({ closeModal }) => {
       damping: 20
     }}
     >
-        <h1>IEŠKO NAMŲ</h1>
+        <h1>IEŠKO NAMŲ <div>&#128149;</div></h1>
         <button className="button" onClick={openModal}>
     noriu savanoriauti
   </button>

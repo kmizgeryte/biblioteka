@@ -17,8 +17,8 @@ const PetLogsHeader = ({petName, id}) => {
       {/* <h1>{petName && petName}: Health Records</h1> */}
       <h1>Gyvūno būklės įrašai</h1>
         <div className="buttons">
-          <Link to={`/logs/${id}/new-log`} className="button">Add Log</Link>
-          <Link to="/" className="button outline">Go back</Link>
+          <Link to={`/logs/${id}/new-log`} className="button">Pridėti nauja aprašymą</Link>
+          <Link to="/" className="button outline">Grįžti atgal</Link>
       </div>
     </motion.div>
   )

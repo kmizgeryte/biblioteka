@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import PetLogsHeader from '../components/PetLogsPage/PetLogsHeader';
-// import Logs from '../components/PetLogsPage/Logs';
 
 const PetLogsPage = () => {
   const { id } = useParams();
@@ -29,7 +28,7 @@ const PetLogsPage = () => {
       });
 
       if (response.ok) {
-        // Atnaujiname sąrašą be pašalinto aprašymo
+        
         setAprasymai((prevAprasymai) => prevAprasymai.filter((aprasymas) => aprasymas.id !== aprasymoId));
       } else {
         console.error('Klaida šalinant aprašymą:', response.status);
@@ -49,11 +48,12 @@ const PetLogsPage = () => {
     
       {gyvunas && (
        <>
-       <h1 style={{ textAlign: 'center' }}>{gyvunas.vardas}</h1>
+       <h1 style={{ textAlign: 'center' }}>{gyvunas.vardas} 
+        &#128149;</h1>
        <img
          src={gyvunas.img}
          alt={gyvunas.vardas}
-         style={{ display: 'block', margin: '0 auto', width: '150px', height: 'auto' }}
+         style={{ display: 'block', margin: '0 auto', width: '150px', height: 'auto',borderRadius: '20px',}}
        />
      </>
      
@@ -61,16 +61,20 @@ const PetLogsPage = () => {
 <div className="korteles">
   {aprasymai.length > 0 ? (
         aprasymai.map((aprasymas) => (
-          <div className="kortele" key={aprasymas.id} 
+          <div className="kortele" style={{ position: 'relative', border: '3px solid #ccc', margin: '5px', padding: '7px', background: 'pink', maxWidth: '200px ', minHeight: '200px'}}  key={aprasymas.id} 
           
           >
-            <p> <b> Info: </b> {aprasymas.info}</p>
-            <p> <b> Aprašymas: </b> {aprasymas.apibūdinimas}</p>
-            <button style={{ border: '1px solid #ccc', margin: '5px', padding: '7px', background: 'aqua', width: '100px '}} onClick={() => handleDelete(aprasymas.id)}>Delete</button>
+            <p style={{padding: '7px'}}> <b> Info: </b> {aprasymas.info}</p>
+            <p style={{padding: '7px', overflow: 'hidden', textOverflow: 'ellipsis',  }}> <b> Aprašymas: </b> {aprasymas.apibūdinimas}</p>
+
+            <button style={{ border: '3px solid #ccc', margin: '5px', padding: '7px', background: 'aqua', width: '100px ', position: 'absolute',bottom: '0',left: '50%',transform: 'translateX(-50%)',marginBottom: '10px', }}
+             onClick={() => handleDelete(aprasymas.id)}
+             onMouseOver={(e) => (e.target.style.background = 'lightblue')}
+             > Delete </button>
           </div>
         ))
       ) : (
-        <p>No descriptions available.</p>
+        <p> Apgailestaujame. Dar nėra informacijos.</p>
       )}
 </div>
       

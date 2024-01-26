@@ -38,11 +38,5 @@ const Footer = () => {
       </motion.footer>
     )
   }
-  // const SocialMediaLinks = () => {
-  //   return (
-      
-  //   );
-  // };
-  
-  // export default SocialMediaLinks;
+ 
 export default Footer
