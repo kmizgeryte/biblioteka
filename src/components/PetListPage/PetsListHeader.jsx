@@ -78,7 +78,7 @@ const VolunteerForm = ({ closeModal }) => {
             <h5>Prieglauda gyvuoja nuo 1992. Didžiuojames galėdami padėti mažiesiems draugams.
               Kiekviena diena padedame rasti nuskriaustai 
               likimo širdeliai namus, bet į mūsų rankas
-               jų papuola vis daugiau ir daugiau. </h5>
+               jų papuola vis daugiau ir daugiau.. </h5>
           </div>
         </div>
 
