@@ -66,7 +66,7 @@
       "gyvunaiId": 1
     },
     {
-      "id": 2,
+      "id": "2",
       "info": "pastebeta, kad suzeita koja",
       "apibūdinimas": "nuveztas i klinika apziurai",
       "data": "data",
@@ -165,9 +165,8 @@
       "Pavardė": "Jone",
       "Gimimo data": "1998 05 24",
       "Telefono numeris": "987654323456",
-      "El": {
-        " paštas": "margarita.jone@gmail.com"
-      }
+      "elPastas": "margarita.jone@gmail.com"
+      
     },
     {
       "id": "b9b8",
@@ -175,9 +174,24 @@
       "Pavardė": "Mol",
       "Gimimo data": "1998 05 24",
       "Telefono numeris": "987654323456",
-      "El": {
-        " paštas": "margarita.jone@gmail.com"
-      }
+      "elPastas": "margarita.jone@gmail.com"
+      
+    },
+    {
+      "id": "1641",
+      "vardas": "Monika",
+      "pavarde": "Liu",
+      "gimimoData": "2000 02 27",
+      "telefonoNumeris": "+2340987635",
+      "elPastas": "monikaLiu@gmail.com"
+    },
+    {
+      "id": "e261",
+      "Vardas": "Laura",
+      "Pavardė": "Gaja",
+      "Gimimo data": "1998 05 24",
+      "Telefono numeris": "987654323456",
+      "elPastas": "laura.Gaja@gmail.com"
     }
   ]
 }

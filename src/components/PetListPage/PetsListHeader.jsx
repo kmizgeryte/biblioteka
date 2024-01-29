@@ -30,18 +30,38 @@ const VolunteerForm = ({ closeModal }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
+    <div className="maincontainer">
+      <div className="thecard">
+
+      </div>
+
+      <div className="thefront">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ipsam. Inventore optio molestias nostrum at vitae ipsum illum ex quo dolore, dicta tenetur! Consequuntur, maxime aperiam? Excepturi recusandae quod nulla.</div>
+
+      <div className="theback">
+        <form onSubmit={handleSubmit(onSubmit)}>
       
       <input {...register('Vardas', { required: true })} placeholder="Vardas" /><br/>
       <input {...register('Pavardė', { required: true })} placeholder="Pavardė" /><br/>
       <input {...register('Gimimo data', { required: true })} placeholder="Gimimo data" /><br/>
       <input {...register('Telefono numeris', { required: true })} placeholder="Telefono numeris" /><br/>
-      <input {...register('El. paštas', { required: true })} placeholder="El. paštas" /><br/>
+      <input {...register('elPastas', { required: true })} placeholder="El. paštas" /><br/>
+      {/* <input {...register('El. paštas', { required: true })} placeholder="El. paštas" /><br/> */}
+      
+      {/* <input {...register('vardas', { required: true })} placeholder="Vardas" /><br/>
+<input {...register('pavarde', { required: true })} placeholder="Pavardė" /><br/>
+<input {...register('gimimoData', { required: true })} placeholder="Gimimo data" /><br/>
+<input {...register('telefonoNumeris', { required: true })} placeholder="Telefono numeris" /><br/>
+<input {...register('elPastas', { required: true })} placeholder="El. paštas" /><br/> */}
 
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
       <button className='button' type="submit">Siųsti</button>
-    </form>
+    </form>  
+      </div>
+
+     
+    </div>
+   
   );
 };
 
