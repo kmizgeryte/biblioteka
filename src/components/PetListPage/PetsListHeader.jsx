@@ -75,10 +75,10 @@ const VolunteerForm = ({ closeModal }) => {
             <div className="title2">
               <h3>Apie</h3>
             </div>
-            <h5>prieglauda gyvuoja nuo 1982. 
-              Kiekviena diena padedame rasti uskriaustai 
+            <h5>Prieglauda gyvuoja nuo 1992. Didžiuojames galėdami padėti mažiesiems draugams.
+              Kiekviena diena padedame rasti nuskriaustai 
               likimo širdeliai namus, bet į mūsų rankas
-               jų papuola vis daugiau</h5>
+               jų papuola vis daugiau ir daugiau. </h5>
           </div>
         </div>
 
@@ -87,8 +87,9 @@ const VolunteerForm = ({ closeModal }) => {
             <div className="title2">
               <h3>Kontaktai</h3>
             </div>
-            <h5>tel. nr. +37895205415.
-              adresas: Liepų gatvė 15, Vilniaus rajonas, Žibučių kaimas. </h5>
+            <h5>Tel. nr. +37895205415.
+              adresas: Liepų gatvė 15, Vilniaus rajonas, Žibučių kaimas. 
+              El. paštas duzusios.sirdeles@gmail.com</h5>
           </div>
         </div>
 
@@ -122,7 +123,8 @@ const VolunteerForm = ({ closeModal }) => {
               Įmonės kodas: 301536872
               Sąskaita: LT837300010106209100
               Bankas: AB „Swedbank“
-              SWIFT/BIC kodas: HABALT22 </h5>
+              SWIFT/BIC kodas: HABALT22.
+              Arba paremti gyvūnui reikiamomis priemonėmis ar maistu</h5>
           </div>
         </div>
       </div>
@@ -137,7 +139,7 @@ const VolunteerForm = ({ closeModal }) => {
       damping: 20
     }}
     >
-        <h1>IEŠKO NAMŲ <div>&#128149;</div></h1>
+        <h1><i>IEŠKO NAMŲ</i> <div>&#128149;</div></h1>
         <button className="button" onClick={openModal}>
     noriu savanoriauti
   </button>

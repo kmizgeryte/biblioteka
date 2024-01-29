@@ -15,15 +15,16 @@
         background: $pink;
         justify-content: space-between;
         align-items: center;
-        background: $pink;
+        font-size: 34px;
+        
     }
 
  
-    h1 {
-        color: $gray;
-        font-weight: 300;
-        font-size: 3em;
-    }
+    // h1 {
+    //     color: $gray;
+    //     font-weight: 300;
+    //     font-size: 6em;
+    // }
 
     .logs {
         display: grid;
@@ -35,30 +36,31 @@
         width: 100%;
         padding: 5px;
 
-        .log {
-            display: flex;
-            flex-direction: column;
-            border: 20px solid lightgray;
-            text-align: center;
-            border-radius: 4px;
-            padding: 20px;
-            color: $gray;
+        // .log {
+        //     display: flex;
+        //     flex-direction: column;
+        //     // border: 30px solid lightgray;
+        //     // text-align: center;
+        //     // border-radius: 4px;
+        //     // padding: 20px;
+        //     // color: $gray;
+        //     color: blue;
 
-            h2 {
-                margin-bottom: 30px;
-            }
+        //     h2 {
+        //         margin-bottom: 30px;
+        //     }
 
-            .date {
-                margin-top: 30px;
-            }
+        //     .date {
+        //         margin-top: 30px;
+        //     }
 
-            .date {
-                display: flex;
-                flex-direction: column;
-                flex: 1;
-                justify-content: end;
-            }
-        }
+        //     // .date {
+        //     //     display: flex;
+        //     //     flex-direction: column;
+        //     //     flex: 1;
+        //     //     justify-content: end;
+        //     // }
+        // }
 
     
 
@@ -88,13 +90,17 @@
     align-items: center;
     justify-content: center;
     padding: 10px;   
-}
-// .kortele{
 
-.kortele{
-    border:1px solid #ccc ;
+  .kortele{
+    border:5px solid #ccc ;
+    border-radius: 20px;
     margin: 10px;
     padding: 10px;
     background: $pink;
     min-width: 250px;
 }
+
+
+}
+
+

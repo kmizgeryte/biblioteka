@@ -26,7 +26,7 @@
     text-wrap: wrap;
     overflow: hidden;
     cursor: pointer;
-    background-image: url(https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2VhfGVufDB8fDB8fHww) ;
+    background-image: url(https://madeinvilnius.lt/wp-content/uploads/2017/09/Anons.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,11 +47,17 @@
 }
 
 .card:nth-of-type(2){
-    background-image: url(https://images.unsplash.com/photo-1457195740896-7f345efef228?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNlYXxlbnwwfHwwfHx8MA%3D%3D);
+    background-image: url(https://kauno.diena.lt/sites/default/files/Vilniausdiena/Vartotoju%20zona/RamDau/beautiful-neotrpical-blue-gold-macaw-with-hooked-beak.jpg);
     
 }
 .card:nth-of-type(3){
-    background-image: url(https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzZXJ0fGVufDB8fDB8fHww);
+    background-image: url(https://kauno.diena.lt/sites/default/files/styles/800x600/public/Vilniausdiena/Vartotoju%20zona/b.banyte/savanoriai_0.jpg?itok=wcKOb963);
+}
+.card:nth-of-type(4){
+    background-image: url(https://paninfo.lt/wp-content/uploads/2022/03/kate2.jpg);
+}
+.card:nth-of-type(5){
+    background-image: url(https://www.kika.lt/images/galleries/news/1632144768_shutterstock-1249058386.jpg);
 }
 .card:hover, .card:active{
     max-width: 350px;
@@ -126,11 +132,11 @@ h5{
     padding: ępx;
     
  
-    h1 {
-        color: $dark;
-        font-weight: 300;
-        font-size: 3em;
-    }
+    // h1 {
+    //     // color: $dark;
+    //     // font-weight: 300;
+    //     // font-size: 1em;
+    // }
     
 }
 .pets {
@@ -152,7 +158,11 @@ h5{
         border-radius: 17px;
         background: $pink;
         // padding: 20px;
-        color: $gray;
+        // color: $gray;
+
+        h1{
+            color: blue;
+        }
 
             h2 {
                 margin-bottom: 30px;

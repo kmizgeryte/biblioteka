@@ -55,6 +55,13 @@
       "vardas": "Meilutis",
       "dob": "2022-09-14",
       "rusis": "voras"
+    },
+    {
+      "id": "2725",
+      "img": "https://media.lrytas.lt/images/2020/07/21/115136261-0e06d84e-28c2-4c10-886a-807a11eab7dc.jpg",
+      "vardas": "Liudesiukas",
+      "dob": "2022-02-15",
+      "rusis": "Katė"
     }
   ],
   "aprasymas": [
@@ -166,7 +173,6 @@
       "Gimimo data": "1998 05 24",
       "Telefono numeris": "987654323456",
       "elPastas": "margarita.jone@gmail.com"
-      
     },
     {
       "id": "b9b8",
@@ -175,7 +181,6 @@
       "Gimimo data": "1998 05 24",
       "Telefono numeris": "987654323456",
       "elPastas": "margarita.jone@gmail.com"
-      
     },
     {
       "id": "1641",

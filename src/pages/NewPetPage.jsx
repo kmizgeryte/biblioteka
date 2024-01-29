@@ -77,6 +77,7 @@ const NewPetPage = () => {
         delay: 0.3
       }}
     >
+      
       <h1>Pridėti liūdinčia širdele <GiBrokenHeartZone />  </h1>
       <div className=''>
 
@@ -91,7 +92,7 @@ const NewPetPage = () => {
           <label htmlFor="dob">Numonoma gimimo data:</label>
           <input onChange={handleChange} type="date" name='dob'  autoComplete="off"/>
 
-          <label htmlFor="rusis">Katė- šuo jei yra veislė:</label>
+          <label htmlFor="rusis">Katė- šuo, kt. jei yra veislė:</label>
           <input onChange={handleChange} type="text" name='rusis' placeholder='katė-beveislė' autoComplete="off"/>
 
           <div className="buttons">
