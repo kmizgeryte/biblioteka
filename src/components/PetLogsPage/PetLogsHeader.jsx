@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 import { LuFolderHeart } from "react-icons/lu";
 
-const PetLogsHeader = ({petName, id}) => {
+const PetLogsHeader = ({ id}) => {
   return (
     <motion.div 
     className="pet-logs-header"
@@ -15,7 +15,6 @@ const PetLogsHeader = ({petName, id}) => {
       delay: 0.3
     }}
     >
-      {/* <h1>{petName && petName}: Health Records</h1> */}
       <h1>Gyvūno būklės įrašai <LuFolderHeart /> </h1>
         <div className="buttons">
           <Link to={`/logs/${id}/new-log`} className="button">Pridėti nauja aprašymą</Link>

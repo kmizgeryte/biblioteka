@@ -18,47 +18,6 @@
     border-bottom: 2px solid #3498db; 
     border-left: 2px solid #f39c12;
 
-.maincontainer{
-    position: relative;
-    width: 250px;
-    height: 320px;
-    background: green;
-}
-     .thecard{
-        position: absolute;
-        width: 93%;
-        height: 93%;
-        transform-style: preserve-3d;
-        transition: all 0.5s ease;
-        background: yellow;
-     }
-.thecard:hover{
-    transform: rotateY(180deg);
-}
-
-
-.thefront{
-    position: absolute;
-    width: 93%;
-    height: 93%;
-    backface-visibility: hidden;
-    background: #ffc728;
-    color: #333;
-    text-align: center;
-    font-family: sans-serif;
-    border-radius: 20px;
-    font-size: 18px;
-    font-weight: bold;
-}
-.theback{
-    position: absolute;
-    width: 93%;
-    height: 93%;
-    backface-visibility: hidden;
-    background: #fafafa;
-    color: #333;
-    transform: rotateY(180deg);
-}
 
     form {
         label, input, textarea {
@@ -114,11 +73,17 @@
         margin: 5px;
         background: $zalia1;
         color: $dark;
+        border-radius: 20px;
+        padding: 7px;
     }
   }
   
   .close-modal {
     margin-top: 10px;
     cursor: pointer;
+    background: $zalia1;
+    padding: 3px;
+    border-radius: 30px;
+    height: 40px;
   }
   
