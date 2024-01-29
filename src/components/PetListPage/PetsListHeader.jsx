@@ -30,14 +30,14 @@ const VolunteerForm = ({ closeModal }) => {
   };
 
   return (
-    <div className="maincontainer">
-      <div className="thecard">
+    // <div className="maincontainer">
+    //   <div className="thecard">
 
-      </div>
+    //   </div>
 
-      <div className="thefront">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ipsam. Inventore optio molestias nostrum at vitae ipsum illum ex quo dolore, dicta tenetur! Consequuntur, maxime aperiam? Excepturi recusandae quod nulla.</div>
+    //   <div className="thefront">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, ipsam. Inventore optio molestias nostrum at vitae ipsum illum ex quo dolore, dicta tenetur! Consequuntur, maxime aperiam? Excepturi recusandae quod nulla.</div>
 
-      <div className="theback">
+    //   <div className="theback">
         <form onSubmit={handleSubmit(onSubmit)}>
       
       <input {...register('Vardas', { required: true })} placeholder="Vardas" /><br/>
@@ -57,10 +57,10 @@ const VolunteerForm = ({ closeModal }) => {
 
       <button className='button' type="submit">Siųsti</button>
     </form>  
-      </div>
+    //   </div>
 
      
-    </div>
+    // </div>
    
   );
 };
