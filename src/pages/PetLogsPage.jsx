@@ -65,7 +65,8 @@ const PetLogsPage = () => {
           
           >
             <p style={{padding: '7px'}}> <b> Info: </b> {aprasymas.info}</p>
-            <p style={{padding: '7px', overflow: 'hidden', textOverflow: 'ellipsis',  }}> <b> Aprašymas: </b> {aprasymas.apibūdinimas}</p>
+            <p style={{padding: '7px', overflow: 'hidden', textOverflow: 'ellipsis',  }}> <b> Aprašymas: </b> {aprasymas.apibūdinimas}</p> <br/>
+            {/* <p>{data}</p> */}
 
             <button style={{ border: '3px solid #ccc', margin: '5px', padding: '7px', background: 'aqua', width: '100px ', position: 'absolute',bottom: '0',left: '50%',transform: 'translateX(-50%)',marginBottom: '10px', }}
              onClick={() => handleDelete(aprasymas.id)}

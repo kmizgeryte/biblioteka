@@ -41,6 +41,7 @@ const Logs = ({logsData}) => {
       <motion.div className="log" key={log.id + index} variants={item} layout="position">
         <h2>{log.info}</h2>
         <p>{log.aprasymas}</p>
+        {/* <p>{log.data}</p> */}
         <div className="date">{new Date(log.dob).toLocaleDateString("lt")}</div>
       </motion.div>
     ))}
