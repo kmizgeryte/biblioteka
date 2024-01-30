@@ -77,13 +77,27 @@
         padding: 7px;
     }
   }
-  
+  .form{
+   background: linear-gradient(to right, $zalia, $zalia1, $zalia); 
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding-left: 7px;
+   line-height: 25px;
+   color: $dark;
+
+   li::marker{
+    content: "❤";
+    color: $aqua;
+   }
+  }
   .close-modal {
     margin-top: 10px;
     cursor: pointer;
     background: $zalia1;
+    
     padding: 3px;
     border-radius: 30px;
     height: 40px;
   }
-  
+

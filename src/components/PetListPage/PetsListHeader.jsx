@@ -30,7 +30,20 @@ const VolunteerForm = ({ closeModal }) => {
   };
 
   return (
-        <form onSubmit={handleSubmit(onSubmit)}>
+    
+    <>
+    <div className="form">
+     <ul>
+         Anketa skirta tik:
+        <li>
+           Žmonėms nuo 16 metų ( nepilnamečiams reikia tėvų sutikimo),
+        </li>
+        <li> Nebijantiems prieglaudos kvapų ir darbų,</li>
+        <li> Meilė gyvūnams </li>
+        <li>Jei neturite patirties, apmokysime</li>
+      </ul>
+   
+      <form onSubmit={handleSubmit(onSubmit)}>
       
       <input {...register('Vardas', { required: true })} placeholder="Vardas" /><br/>
       <input {...register('Pavardė', { required: true })} placeholder="Pavardė" /><br/>
@@ -42,15 +55,12 @@ const VolunteerForm = ({ closeModal }) => {
       {error && <p style={{ color: 'red' }}>{error}</p>}
 
       <button className='button' type="submit">Siųsti</button>
-    </form>  
-   
+    </form>
+    </div>
+    </>
+     
   );
 };
-
-
-
-
-
   const PetListHeader = () => {
     const [modalOpen, setModalOpen] = useState(false);
   

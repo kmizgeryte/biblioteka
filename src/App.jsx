@@ -34,6 +34,7 @@ function App() {
           <Route path="/new-pet" element={<NewPetPage/>}/>
           <Route path="/logs/:id" element={<PetLogsPage/>}/>
           <Route path="/logs/:id/new-log" element={<NewLogPage/>}/>
+          {/* <Route path="/*" element={<Page404 />} /> */}
         </Routes>
       <Footer/>
       </BrowserRouter>
